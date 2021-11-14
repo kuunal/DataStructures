@@ -10,7 +10,7 @@ let dfs = (graph, source)=>{
         console.log(current);
 
         for(let neighbor of graph[current]){
-            stack.push(neighbor);
+            stack.push(neighbor);  
         }
     }
 
